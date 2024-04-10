@@ -2,10 +2,10 @@ operators:
   camelk-operator:
     enabled: true
     namespace:
-      name: camelktest
+      name: camelktest2
     subscription:
       channel: 1.10.x
-      approval: Automatic
+      approval: Manual
       operatorName: red-hat-camel-k
       source: redhat-operators
       sourceNamespace: openshift-marketplace
