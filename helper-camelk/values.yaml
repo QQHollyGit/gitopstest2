@@ -1,1 +1,11 @@
-operators: []
+operators:
+  camelk-operator0:
+    enabled: true
+    namespace:
+      name: compliancetest
+    subscription:
+      channel: release-0.1
+      approval: Manual
+      operatorName: compliance-operator
+      source: redhat-operators
+      sourceNamespace: openshift-marketplace
