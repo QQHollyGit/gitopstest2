@@ -9,4 +9,4 @@ operators:
       operatorName: red-hat-camel-k
       source: redhat-operators
       sourceNamespace: openshift-marketplace
-      
+      csv: red-hat-camel-k-operator.v1.10.6
