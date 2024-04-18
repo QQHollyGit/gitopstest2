@@ -3,6 +3,7 @@ operators:
     enabled: true
     namespace:
       name: camelktest2
+      create: true
     subscription:
       channel: 1.10.x
       approval: Manual
@@ -10,3 +11,6 @@ operators:
       source: redhat-operators
       sourceNamespace: openshift-marketplace
       csv: red-hat-camel-k-operator.v1.10.6
+   operatorgroup:
+      create: true
+      notownnamespace: true
